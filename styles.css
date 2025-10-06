@@ -1,0 +1,71 @@
+/* Header CSS */
+header{
+    display: flex;
+    flex-direction: column;
+    height: min-content;
+}
+
+.header-div{
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header-div-2{
+    background-color: pink;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.header-div-2 p{
+    margin: 0px;
+}
+
+.p-2{
+    display: flex;
+    align-items: flex-start;
+    width: 50%;
+}
+
+/* Main CSS */
+
+/* Fyrstu boxin */
+.box-container{
+    background-color: azure;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.box{
+    display: flex;
+    padding: 20px;
+    background-color: darksalmon;
+    width: 50px;
+    margin: 10px;
+    
+}
+
+.box1{
+    background-color: yellow;
+}
+
+.box2{
+    background-color: green;
+}
+
+.box3{
+    background-color: blue;
+}
+
+/* Seinni boxin */
+
+.box-container-2{
+    background-color: violet;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
